@@ -1,0 +1,37 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX6CW4QD2Gekvf_9gUZjtOs5d6nsO5PU_KSMUL27JChlgCBdGgeOwi0WY&s=10);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  margin: 0;
+  color: #FFD700;
+}
+
+.alinhamento{
+    height: 100%;
+    margin: 0;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 30vh;
+}
+
+h1 {
+  display: flex;
+}
+
+img {
+  width: 290px;
+}
+
+.tecnologias {
+  border: 5px inset #faf9f6;
+  width: 20%;
+  /* padding: 10px; */
+  border-radius: 8px;
+}
